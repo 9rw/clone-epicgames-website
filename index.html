@@ -1,11 +1,2659 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Epic Games Store</title>
+
+  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  Hi
+  <header>
+    <button class="logo">
+      <span style="width: 2rem; height: 2rem;">
+        <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.226 8.12V6.288c0-.292-.137-.427-.42-.427h-.463v2.685h.463c.284 0 .42-.135.42-.426m-1.502 6.5-.252.628h.501z">
+          </path>
+          <path fill-rule="evenodd"
+            d="M5.278 2.5h13.445c1.103 0 1.505.401 1.505 1.488V17.23c0 .17-.03.477-.086.609a.9.9 0 0 1-.21.334c-.106.099-.29.202-.378.242l-7.128 3a1.1 1.1 0 0 1-.851 0l-7.127-3a1.7 1.7 0 0 1-.379-.241.9.9 0 0 1-.21-.335c-.055-.131-.086-.438-.086-.608V3.988c0-1.087.403-1.488 1.505-1.488m8.707 2.383h-1.126v7.285h1.126zm-.414 9.027h-.654l-.534.855-.532-.855h-.655v2.208h.607v-1.262l.568.858h.013l.571-.864v1.268h.616zm-2.587-9.027H9.218v7.286h1.125V9.525h.641c.915 0 1.368-.447 1.368-1.353V6.236c0-.906-.453-1.353-1.368-1.353m-2.33 0H6.15v7.286h2.524v-1.01H7.276V8.963H8.6v-1.01H7.276v-2.06h1.377zM7.86 16.067q.243-.098.421-.243v-.994H7.255v.45h.44v.267a.64.64 0 0 1-.357.091.6.6 0 0 1-.436-.172.6.6 0 0 1-.126-.194.7.7 0 0 1-.045-.246v-.006a.63.63 0 0 1 .166-.429.54.54 0 0 1 .405-.177q.166 0 .292.054a1 1 0 0 1 .248.154l.363-.431a1.4 1.4 0 0 0-.394-.237 1.4 1.4 0 0 0-.512-.085q-.26 0-.48.088a1.2 1.2 0 0 0-.382.245q-.16.156-.25.364-.09.209-.091.451v.007q0 .25.092.458.093.21.256.362.162.151.384.236.223.085.484.085.306 0 .549-.098m1.57-2.173-.952 2.224h.652l.16-.394h.861l.164.394h.663l-.951-2.224zm5.273 4.686.013-.018.004-.023a.06.06 0 0 0-.017-.041.05.05 0 0 0-.04-.017H9.346a.06.06 0 0 0-.041.017l-.013.018-.005.023a.06.06 0 0 0 .018.041q.007.008.018.012l2.58 1.095a.23.23 0 0 0 .181 0l2.6-1.095zm-.719-2.462h1.813v-.52h-1.2v-.35h1.072v-.483h-1.072v-.334h1.184v-.52h-1.796zm.594-9.945v4.705c0 .906.453 1.353 1.368 1.353h.557c.915 0 1.367-.448 1.367-1.353V9.18h-1.104v1.645c0 .291-.137.426-.42.426h-.21c-.295 0-.432-.135-.432-.426v-4.6c0-.292.136-.427.431-.427h.19c.283 0 .42.135.42.426V7.65h1.104V6.163c0-.906-.442-1.343-1.357-1.343h-.547c-.914 0-1.367.448-1.367 1.353m3.27 9.569a.7.7 0 0 0 .065-.303v-.007a.53.53 0 0 0-.223-.458 1 1 0 0 0-.264-.133 3 3 0 0 0-.346-.097 2 2 0 0 1-.19-.049 1 1 0 0 1-.118-.047.16.16 0 0 1-.061-.052.12.12 0 0 1-.017-.066v-.006q0-.06.055-.101a.3.3 0 0 1 .168-.041q.15 0 .31.055.162.055.315.163l.31-.432a1.3 1.3 0 0 0-.407-.22q-.225-.075-.513-.074-.201 0-.36.052a.8.8 0 0 0-.273.147.63.63 0 0 0-.232.508v.007a.6.6 0 0 0 .066.285q.066.115.179.192.113.078.267.127.152.048.331.09.115.025.187.048a.6.6 0 0 1 .115.05.2.2 0 0 1 .059.051q.016.027.016.062v.006a.12.12 0 0 1-.066.112.4.4 0 0 1-.19.04q-.389 0-.724-.266l-.345.407q.209.183.477.275.27.091.57.091a1.3 1.3 0 0 0 .37-.049.8.8 0 0 0 .285-.142.7.7 0 0 0 .183-.225"
+            clip-rule="evenodd"></path>
+        </svg>
+      </span>
+      <span style="width: 12px; height: 12px;">
+        <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+            clip-rule="evenodd"></path>
+        </svg>
+      </span>
+    </button>
+    <nav>
+      <div>
+        <span style="width: 54px; height: 32px;">
+          <svg fill="#fff" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m9.826 16.384a2.991 2.991 0 0 0 -.878-.964 7.225 7.225 0 0 0 -1.384-.73l-2.2-.89a3.575 3.575 0 0 1 -.619-.309 1.18 1.18 0 0 1 -.37-.358 1.32 1.32 0 0 1 -.174-.482 4.142 4.142 0 0 1 -.05-.704c0-.577.1-.998.297-1.262.1-.132.23-.243.395-.333s.371-.136.618-.136c.264 0 .474.04.631.124.157.082.284.19.384.321.148.198.235.433.26.705.024.271.037.565.037.877h3.51c0-.89-.107-1.68-.32-2.373-.216-.692-.56-1.261-1.04-1.706-.79-.743-1.945-1.114-3.46-1.114-.678 0-1.279.095-1.807.284a4.617 4.617 0 0 0 -1.434.829 4.347 4.347 0 0 0 -1.186 1.681c-.264.66-.396 1.402-.396 2.226 0 .692.05 1.277.15 1.755.097.478.246.882.444 1.211.197.33.457.61.78.84.32.232.703.438 1.15.618l2.224.915c.313.133.57.256.767.371.198.116.354.26.47.433.114.173.192.396.234.667.041.272.062.614.062 1.027 0 .709-.115 1.203-.346 1.483-.23.297-.602.445-1.113.445-.28 0-.507-.041-.68-.124a1.213 1.213 0 0 1 -.408-.297 1.253 1.253 0 0 1 -.309-.668 6.197 6.197 0 0 1 -.062-.94h-3.51c0 .907.085 1.678.26 2.313.172.634.472 1.166.901 1.594.395.396.91.71 1.545.94s1.39.346 2.262.346c.874 0 1.612-.124 2.262-.37.651-.248 1.175-.561 1.57-.94.462-.445.767-.985.916-1.62.148-.634.222-1.397.222-2.287 0-.791-.045-1.46-.136-2.002-.09-.545-.247-1.01-.47-1.398v.002zm1.074-6.02h2.968v14.439h3.51v-14.44h2.968v-3.163h-9.446zm20.176 1.322a7.943 7.943 0 0 0 -.384-1.62 4.325 4.325 0 0 0 -.729-1.285 5.17 5.17 0 0 0 -1.508-1.262c-.61-.346-1.393-.519-2.349-.519-.955 0-1.739.173-2.348.52a5.172 5.172 0 0 0 -1.509 1.26c-.313.38-.556.808-.729 1.287a8.448 8.448 0 0 0 -.395 1.619 15.537 15.537 0 0 0 -.16 1.978 107.02 107.02 0 0 0 -.001 4.673c.017.717.07 1.376.16 1.978a8.5 8.5 0 0 0 .396 1.62c.173.478.417.906.73 1.285.417.513.93.941 1.508 1.261.61.347 1.392.52 2.348.52s1.74-.173 2.35-.52a5.17 5.17 0 0 0 1.507-1.26c.316-.384.563-.819.73-1.287.172-.477.3-1.017.383-1.62.082-.6.136-1.26.16-1.977a67.19 67.19 0 0 0 .038-2.337c0-.84-.013-1.62-.038-2.336a19.717 19.717 0 0 0 -.16-1.978zm-3.326 5.897c-.007.495-.027.99-.06 1.484-.035.462-.084.874-.15 1.236-.066.363-.149.642-.247.84-.1.198-.24.363-.42.495-.182.132-.437.198-.767.198s-.585-.066-.766-.198a1.348 1.348 0 0 1 -.42-.495c-.1-.198-.182-.477-.247-.84a11.407 11.407 0 0 1 -.149-1.236 26.059 26.059 0 0 1 -.062-1.484 93.742 93.742 0 0 1 0-3.164c.008-.528.03-1.022.062-1.484.033-.46.082-.873.15-1.236.064-.362.147-.642.246-.84.098-.198.238-.363.42-.495.181-.131.436-.198.766-.198s.585.067.767.198c.181.132.321.297.42.495.098.198.181.479.247.84.066.363.115.775.15 1.236.031.462.051.956.06 1.484.017 1.055.017 2.11 0 3.164zm14.126-1.298c.263-.338.465-.705.606-1.1.14-.396.235-.812.284-1.249.05-.437.074-.894.074-1.372 0-.84-.074-1.595-.223-2.262-.148-.668-.408-1.228-.779-1.682-.37-.453-.874-.804-1.508-1.05-.634-.248-1.43-.371-2.386-.371h-5.019v17.604h3.51v-6.849h1.163l2.15 6.849h3.66l-2.572-7.615c.398-.236.75-.542 1.04-.902zm-2.584-2.955c-.02.246-.079.488-.173.717-.09.214-.23.392-.42.532s-.45.21-.78.21h-1.483v-4.425h1.483c.33 0 .59.066.78.197.19.132.33.306.42.52s.148.454.173.717c.048.51.048 1.023 0 1.533zm13.626-2.966v-3.165h-8.11v17.604h8.11v-3.165h-4.598v-4.203h3.956v-3.165h-3.956v-3.906z" />
+          </svg>
+        </span>
+        <ul>
+          <li>
+            <a class="support" href="#">Support</a>
+          </li>
+          <li>
+            <button class="distribute">
+              <span>Distribute</span>
+              <span style="width: 12px; height: 12px;">
+                <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="tools">
+          <button style="width: 32px; height: 32px; padding: 4px;">
+            <span style="width: 24px; height: 24px; display: block;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3.784 11.25H8.01c.065-2.256.423-4.31.985-5.869.166-.457.352-.882.561-1.263a8.26 8.26 0 0 0-5.773 7.132m8.216-9c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25m0 1.5c-.146 0-.383.08-.695.444-.309.362-.62.93-.898 1.697-.494 1.368-.83 3.243-.896 5.359h4.978c-.066-2.116-.402-3.991-.896-5.36-.277-.766-.59-1.334-.898-1.696-.312-.364-.55-.444-.695-.444m3.99 7.5c-.066-2.256-.424-4.31-.986-5.869a9 9 0 0 0-.561-1.263 8.26 8.26 0 0 1 5.773 7.132zm-1.501 1.5H9.51c.065 2.116.402 3.991.896 5.36.277.766.59 1.334.898 1.696.312.364.55.444.695.444.146 0 .383-.08.695-.444.309-.362.62-.93.898-1.697.494-1.368.83-3.243.896-5.359m-.046 7.132a9 9 0 0 0 .56-1.263c.563-1.559.92-3.613.986-5.869h4.227a8.26 8.26 0 0 1-5.773 7.132m-4.886 0a9 9 0 0 1-.56-1.263c-.563-1.559-.92-3.613-.986-5.869H3.784a8.26 8.26 0 0 0 5.773 7.132"
+                  clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+
+          <a class="sign-in" href="#">Sign in</a>
+        </div>
+        <a class="download" href="#">Download</a>
+        <button class="hamburger">
+          <span>
+            <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M2.25 5A.75.75 0 0 1 3 4.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 5m0 7a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 7a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75"
+                clip-rule="evenodd"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <button class="search-button">
+        <span class="search-logo">
+          <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" preserveAspectRatio="xMidYMid meet">
+            <g transform="scale(1 -1) rotate(-45 -11.93502884 -2)" stroke="currentColor" stroke-width="1.65" fill="none"
+              fill-rule="evenodd">
+              <circle cx="7.70710678" cy="7.70710678" r="7"></circle>
+              <path d="M15.2071068 8.62132034h5.6923881" stroke-linecap="square" />
+            </g>
+          </svg>
+        </span>
+        <input type="text" placeholder="Search store">
+      </button>
+      <div class="btn-group">
+        <button>
+          <span>Discover</span>
+          <span style="margin-left: 5px; width: 12px; height: 12px;">
+            <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                clip-rule="evenodd"></path>
+            </svg>
+          </span>
+        </button>
+        <button>
+          <span style="opacity: 0.6;">Browse</span>
+        </button>
+        <button>
+          <span style="opacity: 0.6;">News</span>
+        </button>
+      </div>
+    </div>
+    <!-- End Search Bar -->
+
+    <section id="main">
+      <!-- 1st Section -->
+      <div class="end cover">
+        <div class="container col end">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_0.jpg" alt="Promotional image 1">
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_1.png" alt="Promotional image 2">
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_2.jpg" alt="Promotional image 3">
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <div class="container col end">
+          <div class="container">
+            <div class="main-img-container">
+              <div>
+                <div class="main-img-wrapper">
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_23.png" alt="Fortnite Crew logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">Available Now</span>
+                        <span class="desc">Maximize your Fortnite experience with Fortnite Crew!</span>
+                      </div>
+                      <span class="price" style="margin: 0 0 10px 0; display:block;">From THB 299 /month</span>
+                      <div class="button-container">
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_3.jpg" alt="Fortnite Crew main image">
+                  </div>
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_24.png" alt="Genshin Impact logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">New Characters</span>
+                        <span class="desc">Run your amusement park in Fontaine and welcome Escoffier and Ifa to the
+                          playable roster!</span>
+                      </div>
+                      <span class="price" style="margin: 0 0 10px 0; display:block;">Free</span>
+                      <div class="button-container">
+                        <a href="#">Play For Free</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_4.jpg" alt="Genshin Impact main image">
+                  </div>
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_25.png" alt="Clair Obscur: Expedition 33 logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">Available Now</span>
+                        <span class="desc">Join Expedition 33 in their mission to destroy the Paintress in this
+                          innovative reactive turn-based RPG.</span>
+                      </div>
+                      <span class="price" style="margin: 0 0 10px 0; display:block;">THB 1,100</span>
+                      <div class="button-container">
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_5.jpg"
+                      alt="Clair Obscur: Expedition 33 main image">
+                  </div>
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_26.png" alt="Prologue: Go Wayback! logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">Available Now</span>
+                        <span class="desc">We visit PlayerUnknown Productions' studio to learn about its upcoming
+                          survival game and how it’s the first step in building an Earth-sized game.</span>
+                      </div>
+                      <span class="price" style="margin: 0 0 10px 0; display:block;">From THB 299 /month</span>
+                      <div class="button-container">
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_6.jpg" alt="Prologue: Go Wayback! main image">
+                  </div>
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_27.png" alt="Silent Hill 2 logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">Available Now</span>
+                        <span class="desc">Experience a master-class in psychological horror – lauded as the best in the
+                          series – on the latest hardware with chilling visuals and visceral sounds.</span>
+                      </div>
+                      <div class="prices-container">
+                        <span class="discount">-30%</span>
+                        <div class="prices">
+                          <span class="price">THB 2,147</span>
+                          <span class="price">THB 1,502.90</span>
+                        </div>
+                      </div>
+                      <div class="button-container">
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_7.jpg" alt="Silent Hill 2 main image">
+                  </div>
+                  <div class="item">
+                    <div class="info">
+                      <div class="logo-wrapper">
+                        <img class="logo" src="./assets/images/image_28.png" alt="Dead by Daylight logo">
+                      </div>
+                      <div class="description">
+                        <span class="annouce">New Chapter</span>
+                        <span class="desc">Dead by Daylight: Tokyo Ghoul features new Killer, The Ghoul, a chilling
+                          reimagining of Ken Kaneki.</span>
+                      </div>
+                      <div class="prices-container">
+                        <div class="prices">
+                          <span class="price">THB 729</span>
+                        </div>
+                      </div>
+                      <div class="button-container">
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                    <img class="main-img" src="./assets/images/image_8.jpg" alt="Dead by Daylight main image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-tab">
+              <div class="item active">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_9.jpg" alt="Fortnite Crew tab image">
+                </div>
+                <div class="info">
+                  <span>Fortnite Crew</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_10.jpg" alt="Genshin Impact tab image">
+                </div>
+                <div class="info">
+                  <span>Genshin Impact</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_11.jpg" alt="Clair Obscur: Expedition 33 tab image">
+                </div>
+                <div class="info">
+                  <span>Clair Obscur: Expedition 33</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_12.jpg" alt="Prologue: Go Wayback! tab image">
+                </div>
+                <div class="info">
+                  <span>Prologue: Go Wayback!</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_13.jpg" alt="Silent Hill 2 tab image">
+                </div>
+                <div class="info">
+                  <span>Silent Hill 2</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_14.jpg" alt="Dead by Daylight tab image">
+                </div>
+                <div class="info">
+                  <span>Dead by Daylight</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <!-- Main Hero -->
+        <div class="end">
+          <div class="heading">
+            <div class="left">
+              <h5>Discover Something New</h5>
+              <button style="width: 24px; height: 24px">
+                <span style="width: 100%; height: 100%">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div class="right">
+              <button>
+                <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                    <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+              <button>
+                <span style="width: 12px; height: 12px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                    <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="swiper-container end">
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_15.jpg" alt="Clair Obscur: Expedition 33 cover">
+                </div>
+                <div class="description">
+                  <span class="genre">Base Game</span>
+                  <h4 class="name">Clair Obscur: Expedition 33</h4>
+                  <div class="prices-container">
+                    <div class="prices">
+                      <span class="price">THB 1,100</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_16.jpg" alt="Escape from Tarkov: Arena cover">
+                </div>
+                <div class="description">
+                  <span class="genre">Base Game</span>
+                  <h4 class="name">Escape from Tarkov: Arena</h4>
+                  <div class="tag">
+                    <span style="width: 14px; height: 14px; margin-right: 8px;">
+                      <?xml version="1.0" encoding="utf-8"?>
+                      <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMinYMin" >
+                        <path
+                          d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+                      </svg>
+                    </span>
+                    <span>First Run</span>
+                  </div>
+                  <div class="prices-container">
+                    <div class="prices">
+                      <span class="price">THB 1,181</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_17.jpg" alt="Commandos: Origins cover">
+                </div>
+                <div class="description">
+                  <span class="genre">Base Game</span>
+                  <h4 class="name">Commandos: Origins</h4>
+                  <div class="prices-container">
+                    <div class="prices">
+                      <span class="price">THB 1,500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_18.jpg" alt="FATAL FURY: City of the Wolves Special Edition cover">
+                </div>
+                <div class="description">
+                  <span class="genre">Base Game</span>
+                  <h4 class="name">FATAL FURY: City of the Wolves Special Edition</h4>
+                  <div class="prices-container">
+                    <div class="prices">
+                      <span class="price">THB 2,160</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_19.avif" alt="Deadzone: Rogue cover">
+                </div>
+                <div class="description">
+                  <span class="genre">Base Game</span>
+                  <h4 class="name">Deadzone: Rogue</h4>
+                  <div class="prices-container">
+                    <span class="discount">-50%</span>
+                    <div class="prices">
+                      <span class="price"><del>THB 495</del></span>*
+                      <span class="price">THB 396</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container col">
+            <div class="card-container">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_40.jpg" alt="Fortnite Mace Windu skin">
+                </div>
+                <div class="moreinfo-container">
+                  <h4 class="name">Fornite</h4>
+                  <span class="desc">Jedi Master and member of the High Council. Get Mace Windu in the Shop now!</span>
+                  <a class="moreinfo-button" href="#">
+                    <span>See In Shop</span>
+                    <span style="width: 20px; height: 20px; margin-left: 4px">
+                      <svg fill="#fff" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                          d="M15.25 4a.75.75 0 0 1 .75-.75h5.75V9a.75.75 0 0 1-1.5 0V5.81l-6.72 6.72a.75.75 0 1 1-1.06-1.06l6.72-6.72H16a.75.75 0 0 1-.75-.75M6.5 7.75a.75.75 0 0 0-.75.75v10c0 .414.336.75.75.75h10a.75.75 0 0 0 .75-.75V16a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-10a2.25 2.25 0 0 1-2.25-2.25v-10A2.25 2.25 0 0 1 6.5 6.25H9a.75.75 0 0 1 0 1.5z"
+                          clip-rule="evenodd" fill-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_41.jpg" alt="Fortnite Imperial Stormtrooper skin">
+                </div>
+                <div class="moreinfo-container">
+                  <h4 class="name">Fornite</h4>
+                  <span class="desc">The Imperial Stormtrooper is scouting the Island. Grab him in the Shop now!</span>
+                  <a class="moreinfo-button" href="#">
+                    <span>See In Shop</span>
+                    <span style="width: 20px; height: 20px; margin-left: 4px">
+                      <svg fill="#fff" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                          d="M15.25 4a.75.75 0 0 1 .75-.75h5.75V9a.75.75 0 0 1-1.5 0V5.81l-6.72 6.72a.75.75 0 1 1-1.06-1.06l6.72-6.72H16a.75.75 0 0 1-.75-.75M6.5 7.75a.75.75 0 0 0-.75.75v10c0 .414.336.75.75.75h10a.75.75 0 0 0 .75-.75V16a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-10a2.25 2.25 0 0 1-2.25-2.25v-10A2.25 2.25 0 0 1 6.5 6.25H9a.75.75 0 0 1 0 1.5z"
+                          clip-rule="evenodd" fill-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="./assets/images/image_42.jpg" alt="Fortnite New Season Star Wars Galactic Battle">
+                </div>
+                <div class="moreinfo-container">
+                  <h4 class="name">Fornite New Season</h4>
+                  <span class="desc">Learn more about the Fortnite BR Star Wars season: GALACTIC BATTLE</span>
+                  <a class="moreinfo-button" href="#">
+                    <span>Read More</span>
+                    <span style="width: 20px; height: 20px; margin-left: 4px">
+                      <svg fill="#fff" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                          d="M15.25 4a.75.75 0 0 1 .75-.75h5.75V9a.75.75 0 0 1-1.5 0V5.81l-6.72 6.72a.75.75 0 1 1-1.06-1.06l6.72-6.72H16a.75.75 0 0 1-.75-.75M6.5 7.75a.75.75 0 0 0-.75.75v10c0 .414.336.75.75.75h10a.75.75 0 0 0 .75-.75V16a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-10a2.25 2.25 0 0 1-2.25-2.25v-10A2.25 2.25 0 0 1 6.5 6.25H9a.75.75 0 0 1 0 1.5z"
+                          clip-rule="evenodd" fill-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="slide-selector">
+              <button class="dot active"></button>
+              <button class="dot"></button>
+              <button class="dot"></button>
+            </div>
+          </div>
+        </div>
+        <!-- End Main Hero -->
+
+        <!-- Featured Discounts -->
+        <div class="heading">
+          <div class="left">
+            <h5>Featured Discounts</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_43.jpg" alt="Dead by Daylight cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Dead by Daylight</h4>
+                <div class="prices-container">
+                  <span class="discount">-60%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 420</del></span>*
+                    <span class="price">THB 168</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_44.jpg" alt="The Casting of Frank Stone™ Deluxe Edition cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">The Casting of Frank Stone™ Deluxe Edition</h4>
+                <div class="prices-container">
+                  <span class="discount">-80%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 949</del></span>*
+                    <span class="price">THB 189.80</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_45.png" alt="The Casting of Frank Stone™ Edition cover">
+              </div>
+              <div class="description">
+                <span class="genre">Edition</span>
+                <h4 class="name">The Casting of Frank Stone™</h4>
+                <div class="prices-container">
+                  <span class="discount">-80%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 729</del></span>*
+                    <span class="price">THB 145.80</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_46.jpg" alt="Pantron Add-On cover">
+              </div>
+              <div class="description">
+                <span class="genre">Add-On</span>
+                <h4 class="name">Pantron</h4>
+                <div class="prices-container">
+                  <span class="discount">-80%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 269</del></span>*
+                    <span class="price">THB 53.80</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_47.jpg" alt="Destiny 2: Lightfall Add-On cover">
+              </div>
+              <div class="description">
+                <span class="genre">Add-On</span>
+                <h4 class="name">Destiny 2: Lightfall</h4>
+                <div class="prices-container">
+                  <span class="discount">-90%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 789</del></span>*
+                    <span class="price">THB 78.90</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Featured Discounts -->
+
+        <div class="container col">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_68.jpg" alt="The Casting of Frank Stone™ card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">The Casting of Frank Stone™</h4>
+                <div class="prices-container">
+                  <span class="discount">-80%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 729</del></span>*
+                    <span class="price">THB 145.80</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_69.jpg" alt="Classified: France '44 - Deluxe Edition card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Classified: France '44 - Deluxe Edition</h4>
+                <div class="prices-container">
+                  <span class="discount">-50%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 1,200</del></span>*
+                    <span class="price">THB 600</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_70.jpg" alt="Check out all the deals for this week card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Check out all the deals for this week.</h4>
+                <a class="moreinfo-button" href="#">
+                  <span>Browse</span>
+                  <!-- <span style="width: 20px; height: 20px; margin-left: 4px">
+              <svg fill="#fff" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><path d="M15.25 4a.75.75 0 0 1 .75-.75h5.75V9a.75.75 0 0 1-1.5 0V5.81l-6.72 6.72a.75.75 0 1 1-1.06-1.06l6.72-6.72H16a.75.75 0 0 1-.75-.75M6.5 7.75a.75.75 0 0 0-.75.75v10c0 .414.336.75.75.75h10a.75.75 0 0 0 .75-.75V16a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-10a2.25 2.25 0 0 1-2.25-2.25v-10A2.25 2.25 0 0 1 6.5 6.25H9a.75.75 0 0 1 0 1.5z" clip-rule="evenodd" fill-rule="evenodd"></path></svg>
+            </span> -->
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+      </div>
+      <!-- End 1st Section -->
+
+
+      <!-- Freegames -->
+      <div class="freegames-container end">
+        <div class="heading">
+          <div class="left">
+            <span style="width: 35px; height: 35px; margin-right: 14px">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <g fill="currentColor" fill-rule="evenodd">
+                  <path
+                    d="M30.443 16.605H19.72v-3.46h10.724v3.46zm-2.075 12.308c0 .397-.576.838-1.402.838h-7.247V17.99h8.648v10.924zm-14.876.838h4.843v-18.68h-4.843v18.68zm-10.033-.838V17.99h8.649v11.762H4.861c-.826 0-1.402-.441-1.402-.838zM1.384 13.146h10.724v3.46H1.384v-3.46zm1.773-4.324c0-1.622 1.319-2.94 2.94-2.94 2.752 0 5.093 3.78 5.575 5.88H6.097a2.944 2.944 0 0 1-2.94-2.94zm22.573-2.94c1.621 0 2.94 1.318 2.94 2.94 0 1.621-1.319 2.94-2.94 2.94h-5.574c.481-2.1 2.822-5.88 5.574-5.88zm5.405 5.88h-2.244a4.304 4.304 0 0 0 1.163-2.94 4.329 4.329 0 0 0-4.324-4.325c-2.89 0-5.227 2.813-6.341 5.294a.686.686 0 0 0-.362-.105H12.8a.686.686 0 0 0-.362.105c-1.114-2.481-3.45-5.294-6.34-5.294a4.329 4.329 0 0 0-4.325 4.325c0 1.136.444 2.168 1.163 2.94H.692a.692.692 0 0 0-.692.692v4.843c0 .382.31.692.692.692h1.384v10.924c0 1.246 1.223 2.222 2.785 2.222h22.105c1.562 0 2.785-.976 2.785-2.222V17.99h1.384c.382 0 .692-.31.692-.692v-4.843a.692.692 0 0 0-.692-.692zM15.914 4.151c.381 0 .691-.31.691-.692V.692a.692.692 0 0 0-1.383 0v2.767c0 .382.31.692.692.692">
+                  </path>
+                  <path
+                    d="M19.546 5.362a.69.69 0 0 0 .49-.203l1.037-1.037a.692.692 0 1 0-.978-.979l-1.038 1.038a.692.692 0 0 0 .489 1.181M11.792 5.16a.69.69 0 0 0 .978 0 .692.692 0 0 0 0-.979l-1.038-1.038a.692.692 0 1 0-.978.979l1.038 1.037z">
+                  </path>
+                </g>
+              </svg>
+            </span>
+            <h5>Free Games</h5>
+          </div>
+          <a href="#">
+            View More
+          </a>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="head">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_71.png" alt="Deadtime Defenders free game cover">
+              </div>
+              <span class="status free">Free now</span>
+            </div>
+            <div class="description">
+              <span class="name">Deadtime Defenders</span>
+              <span class="desc">Free Now - <time datetime="2025-05-15T15:00:00.000Z">May 15</time> at <time
+                  datetime="2025-05-15T15:00:00.000Z">10:00 PM</time></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="head">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_72.jpg" alt="Touch Type Tale free game cover">
+              </div>
+              <span class="status free">Free now</span>
+            </div>
+            <div class="description">
+              <span class="name">Touch Type Tale</span>
+              <span class="desc">Free Now - <time datetime="2025-05-15T15:00:00.000Z">May 15</time> at <time
+                  datetime="2025-05-15T15:00:00.000Z">10:00 PM</time></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="head">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_73.jpg" alt="Mystery game cover 1">
+              </div>
+              <span class="status secret">Mystery game</span>
+            </div>
+            <div class="description">
+              <span class="cd">Unlocking in <span class="css-1ovumeb"
+                  data-testid="timer-remaining-days">04</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-hours">19</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-minutes">27</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-seconds">52</span></span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="head">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_73.jpg" alt="Mystery game cover 2">
+              </div>
+              <span class="status secret">Mystery game</span>
+            </div>
+            <div class="description">
+              <span class="cd">Unlocking in <span class="css-1ovumeb"
+                  data-testid="timer-remaining-days">04</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-hours">19</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-minutes">27</span><span>:</span><span class="css-1ovumeb"
+                  data-testid="timer-remaining-seconds">52</span></span>
+            </div>
+          </div>
+        </div>
+        <!-- End Card free games -->
+      </div>
+      <!-- End Freegames -->
+
+      <div class="end cover">
+        <div class="container col end">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_75.jpg" alt="Epic Games Store Mobile card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Epic Games Store Mobile</h4>
+                <span class="desc">More games, new look, and free game giveaways! Store app available globally on
+                  Android,
+                  and on iPhone and iPad in the EU.</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Install Mobile</span>
+                  <span style="width: 20px; height: 20px; margin-left: 4px">
+                    <svg fill="#fff" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                      <path
+                        d="M15.25 4a.75.75 0 0 1 .75-.75h5.75V9a.75.75 0 0 1-1.5 0V5.81l-6.72 6.72a.75.75 0 1 1-1.06-1.06l6.72-6.72H16a.75.75 0 0 1-.75-.75M6.5 7.75a.75.75 0 0 0-.75.75v10c0 .414.336.75.75.75h10a.75.75 0 0 0 .75-.75V16a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-10a2.25 2.25 0 0 1-2.25-2.25v-10A2.25 2.25 0 0 1 6.5 6.25H9a.75.75 0 0 1 0 1.5z"
+                        clip-rule="evenodd" fill-rule="evenodd"></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_76.jpg" alt="Free Giveaways card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Free Giveaways</h4>
+                <span class="desc">Get a new free game every Thursday on Mobile and PC! App available globally on
+                  Android,
+                  and on iPhone and iPad in the EU.</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Install Mobile and Claim Now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <div class="heading">
+          <div class="left">
+            <h5>Top New Releases</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_77.jpg" alt="Grand Theft Auto V Enhanced cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Grand Theft Auto V Enhanced</h4>
+                <span class="price">THB 959</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_78.jpg" alt="Clair Obscur: Expedition 33 cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Clair Obscur: Expedition 33</h4>
+                <span class="price">THB 1,100</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_79.jpg" alt="The Last of Us Part II Remastered cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">The Last of Us™ Part II Remastered</h4>
+                <span class="price">THB 1,290</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_80.jpg" alt="Escape from Tarkov: Arena cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Escape from Tarkov: Arena</h4>
+                <div class="tag">
+                  <span style="width: 14px; height: 14px; margin-right: 8px;">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="xMinYMin" >
+                      <path
+                        d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+                    </svg>
+                  </span>
+                  <span>First Run</span>
+                </div>
+                <div class="prices-container">
+                  <div class="prices">
+                    <span class="price">THB 1,181</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_81.jpg" alt="Marvel’s Spider-Man 2 cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Marvel’s Spider-Man 2</h4>
+                <span class="price">THB 1,690</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container col end">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_101.jpeg" alt="Fall Guys card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Fall Guys</h4>
+                <span class="desc">Truly out of this world, Star Wars™ costumes and cosmetics have arrived in Fall
+                  Guys!</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Play For Free</span>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_102.jpg" alt="Empyreal card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Empyreal</h4>
+                <span class="desc">An expedition arrives on an unexplored planet to find a colossal Monolith built by a
+                  lost civilization.</span>
+                <div class="prices-container">
+                  <span class="discount">-10%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 590</del></span>*
+                    <span class="price">THB 531</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_103.jpg" alt="Destiny 2: The Edge of Fate card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Destiny 2: The Edge of Fate</h4>
+                <span class="desc">Guardians will venture into the unknown, where mysteries – and The Nine –
+                  await.</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  </div>
+                  <span class="price">THB 1,099</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <div class="container col end">
+          <div class="lists-container">
+            <div class="list">
+              <a href="#">
+                <h5>Top Sellers</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_104.jpg" alt="Dead by Daylight top seller cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Dead by Daylight</span>
+                    <div class="prices-container">
+                      <span class="discount">-50%</span>
+                      <div class="prices">
+                        <span class="price"><del>THB 1,999</del></span>*
+                        <span class="price">THB 999.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_105.jpg" alt="Grand Theft Auto V Enhanced top seller cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Grand Theft Auto V Enhanced</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 959</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_107.jpg" alt="Clair Obscur: Expedition 33 top seller cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Clair Obscur: Expedition 33</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 1,100</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_108.png" alt="The Casting of Frank Stone top seller cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">The Casting of Frank Stone™</span>
+                    <div class="prices-container">
+                      <span class="discount">-80%</span>
+                      <div class="prices">
+                        <span class="price"><del>THB 729</del></span>*
+                        <span class="price">THB 145.80</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_106.jpg" alt="The Last of Us Part II Remastered top seller cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">The Last of Us™ Part II Remastered</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 1,290</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+                <h5>Most Played</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_109.jpg" alt="Fortnite most played cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Fortnite</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">Free</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_110.jpg" alt="Rocket League most played cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Rocket League®</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">Free</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_111.jpg" alt="Genshin Impact most played cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Genshin Impact</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">Free</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_112.jpg" alt="Football Manager 2024 most played cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Football Manager 2024</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 1,499</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_113.jpg" alt="VALORANT most played cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">VALORANT</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">Free</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+                <h5>Top Upcoming Wishlisted</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_114.jpg" alt="Borderlands 4 upcoming wishlist cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Borderlands 4</span>
+                    <span class="desc text-sm">Available 09/12/25</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_115.jpg" alt="Dying Light: The Beast upcoming wishlist cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Dying Light: The Beast</span>
+                    <span class="desc text-sm">Coming Soon</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_116.png" alt="Lowlife Forms upcoming wishlist cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Lowlife Forms</span>
+                    <span class="desc text-sm">Coming Soon</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_117.png" alt="Tides of Annihilation upcoming wishlist cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Tides of Annihilation</span>
+                    <span class="desc text-sm">Coming Soon</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_118.png" alt="XOCIETY upcoming wishlist cover">
+                  </div>
+                  <div class="container col">
+                    <span class="name">XOCIETY</span>
+                    <span class="desc text-sm">Coming Soon</span>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <div class="container col end">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_119.jpg" alt="Killing Floor 3 card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Killing Floor 3</h4>
+                <span class="desc">Pre-purchase KF3 and get ready for the return of this legendary co-op action horror
+                  series.</span>
+                <div class="prices-container">
+                  <div class="prices">
+                    <span class="price">THB 649</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_120.jpg" alt="Apex Legends card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Apex Legends™</h4>
+                <span class="desc">Target greatness as new Legend, Sparrow - show the Outlands that you are the one to
+                  watch. Set your sights on glory!</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Play For Free</span>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_121.jpg" alt="Off The Grid card cover">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Off The Grid</h4>
+                <span class="desc">Reign victorious as the Hopper Pilot & Cleanup Crew in OTG's first lore-driven Battle
+                  Pass!</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Play For Free</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+      </div>
+      <!-- End 2nd Section -->
+
+      <!-- 3rd Section -->
+      <div class="end cover">
+        <div class="heading">
+          <div class="left">
+            <h5>Trending</h5>
+          </div>
+          <a href="#">
+            View More
+          </a>
+        </div>
+        <div class="swiper-container end cover trending">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_122.avif" alt="Killing Floor 3 cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Killing Floor 3</h4>
+                <span class="desc">Available 07/24/25</span>
+                <div class="prices-container">
+                  <div class="prices">
+                    <span class="price">THB 649</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_123.webp" alt="Stellar Blade cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Stellar Blade™</h4>
+                <span class="desc">Available Jun 2025</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_124.avif" alt="The Precinct cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">The Precinct</h4>
+                <span class="desc">Available 05/13/25</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_125.webp" alt="Touch Type Tale cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Touch Type Tale</h4>
+                <div class="prices-container">
+                  <span class="discount">-100%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 400</del></span>*
+                    <span class="price">Free</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_126.webp" alt="Deadtime Defenders cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Deadtime Defenders</h4>
+                <div class="tag">
+                  <span>Now On Epic</span>
+                </div>
+                <div class="prices-container">
+                  <span class="discount">-100%</span>
+                  <div class="prices">
+                    <span class="price"><del>THB 162</del></span>*
+                    <span class="price">Free</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container col end">
+          <div class="lists-container">
+            <div class="list">
+              <a href="#">
+                <h5>New Releases</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_127.avif" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Revenge of the Mage</span>
+                    <div class="tag">
+                      <span style="width: 14px; height: 14px; margin-right: 8px">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                          preserveAspectRatio="xMinYMin" >
+                          <path
+                            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+                        </svg>
+                      </span>
+                      <span>First Run</span>
+                    </div>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 97</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_128.avif" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">The Tales of Elysian Imperium: A Dream from Memory Shards</span>
+                    <div class="tag">
+                      <span style="width: 14px; height: 14px; margin-right: 8px">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                          preserveAspectRatio="xMinYMin" >
+                          <path
+                            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+                        </svg>
+                      </span>
+                      <span>First Run</span>
+                    </div>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 65</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_129.avif" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Mine and Clash</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 162</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_130.avif" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Full Spectrum Gradient</span>
+                    <div class="tag">
+                      <span>Now On Epic</span>
+                    </div>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 81</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_131.avif" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Grafika66 - The Galleries</span>
+                    <div class="tag">
+                      <span>Now On Epic</span>
+                    </div>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">Free</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+                <h5>Top Player Rated</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_132.png" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Hades II</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 590</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_133.png" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Timberborn</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 680</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_134.jpg" alt="">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 21">
+                        <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"
+                          d="M24.8977 2.35666V16.5263H27.6264V11.3644H30.988C33.6967 11.3644 35.7135 9.44169 35.7135 6.83038C35.7135 4.23917 33.7758 2.35666 31.0868 2.35666H24.8977ZM30.7904 8.97614H27.6264V4.84661H30.7904C32.0952 4.84661 33.0049 5.69676 33.0049 6.91143C33.0049 8.12587 32.0952 8.97614 30.7904 8.97614ZM39.5098 1.54724L36.9988 2.35666V16.5263H39.5098V1.54724ZM45.6194 16.6682C46.8455 16.6682 47.9529 16.2026 48.7833 15.4129V16.5263H51.2943V6.42567H48.7833V7.53864C47.9922 6.72912 46.9045 6.26357 45.7186 6.26357C43.1482 6.26357 40.8147 8.44964 40.8147 11.4657C40.8147 14.4817 43.1084 16.6682 45.6194 16.6682ZM46.0546 14.3603C44.5323 14.3603 43.306 13.166 43.306 11.4657C43.306 9.76534 44.5323 8.571 46.0546 8.571C47.5968 8.571 48.8029 9.76534 48.8029 11.4657C48.8029 13.166 47.5968 14.3603 46.0546 14.3603ZM63 6.42567H60.3702L57.5622 12.3767L54.6952 6.42567H51.8876L56.119 15.2509L53.2915 21H56.0202L63 6.42567ZM14.4117 12.3263L13.6055 11.0088H11.2517L12.0591 9.68892H12.8028L11.904 8.21971L9.39655 12.3263H2.70711L4.31771 9.68892H3.13509L3.93908 8.36913H9.1099L8.3055 9.68892H5.83926L5.03307 11.0088H8.68129L11.904 5.7288L15.9314 12.3263H14.4117ZM5.5503 5.7288H10.8544L10.0482 7.04923H4.74464L5.5503 5.7288ZM9.22635 0C4.13101 0 0 4.22928 0 9.44588C0 14.6637 4.13101 18.8911 9.22635 18.8911C14.3216 18.8911 18.4532 14.6637 18.4532 9.44588C18.4532 4.22928 14.3216 0 9.22635 0Z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="container col">
+                    <span class="name">Split Fiction</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 1,399</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_135.jpg" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Celeste</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 276</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_136.jpg" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">while True: learn()</span>
+                    <div class="prices-container">
+                      <div class="prices">
+                        <span class="price">THB 179</span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+                <h5>Coming Soon</h5>
+                <span style="width: 24px; height: 24px; margin-left: 5px;">
+                  <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                      clip-rule="evenodd" fill-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </a>
+              <ul>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_137.png" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Adventures and Quests - The Black Crystal - Collector's Edition</span>
+                    <span class="desc">Available 05/12/25</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_138.png" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Secret of the Vikings 2 - The World Tree</span>
+                    <span class="desc">Available 05/12/25</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_139.jpg" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">Moving Houses</span>
+                    <span class="desc">Available 05/12/25</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_140.jpg" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">The Nightmare of Pandemic - Kyle's Story</span>
+                    <span class="desc">Available 05/12/25</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img-wrapper">
+                    <img src="./assets/images/image_141.png" alt="">
+                  </div>
+                  <div class="container col">
+                    <span class="name">KARMA: The Dark World</span>
+                    <span class="desc">Available 05/12/25</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <!-- Featured Stories -->
+        <div class="heading">
+          <h5>Featured Stories</h5>
+        </div>
+        <div class="container col end">
+          <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_142.jpg" alt="">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">No fate, just pixel</h4>
+                <span class="desc">A look at the new, lovingly pixelated Terminator 2 game.</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Read More</span>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_143.jpg" alt="">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">Foring Head</h4>
+                <span class="desc">
+                  <div class="css-1h3di0n">Our deep cut preview of sword-crafting action adventure Blades of Fire.</div>
+                </span>
+                <a class="moreinfo-button" href="#">
+                  <span>Read More</span>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_144.jpg" alt="">
+              </div>
+              <div class="moreinfo-container">
+                <h4 class="name">A wealth of stories</h4>
+                <span class="desc">Plug into our drip feed of exclusives, features, interviews, and guides.</span>
+                <a class="moreinfo-button" href="#">
+                  <span>Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+        <!-- End Featured Stories -->
+      </div>
+      <!-- End 3rd Section -->
+
+      <!-- 4th Section -->
+      <div class="end cover">
+        <!-- Featured from Epic First Run -->
+        <div class="heading">
+          <div class="left">
+            <h5>Featured from Epic First Run</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_145.avif" alt="Super Farming Boy cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Super Farming Boy</h4>
+          <div class="tag">
+            <span style="width: 14px; height: 14px; margin-right: 8px;">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" >
+                <path
+            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+              </svg>
+            </span>
+            <span>First Run</span>
+          </div>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">THB 210</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_16.jpg" alt="Truck Sim 2025 cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Truck Sim 2025</h4>
+          <div class="tag">
+            <span style="width: 14px; height: 14px; margin-right: 8px;">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" >
+                <path
+            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+              </svg>
+            </span>
+            <span>First Run</span>
+          </div>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">THB 162</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_147.jpg" alt="Samsara cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Samsara</h4>
+          <div class="tag">
+            <span style="width: 14px; height: 14px; margin-right: 8px;">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" >
+                <path
+            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+              </svg>
+            </span>
+            <span>First Run</span>
+          </div>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">THB 569</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_148.avif" alt="World War II City Rebirth Tycoon cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">World War II City Rebirth Tycoon</h4>
+          <div class="tag">
+            <span style="width: 14px; height: 14px; margin-right: 8px;">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" >
+                <path
+            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+              </svg>
+            </span>
+            <span>First Run</span>
+          </div>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">THB 162</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_149.png" alt="Scorpion Hero Arcade Edition cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Scorpion Hero Arcade Edition</h4>
+          <div class="tag">
+            <span style="width: 14px; height: 14px; margin-right: 8px;">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg fill="#fdd354" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" >
+                <path
+            d='M2.049 1.802L5.854 5.15 9.244.976a1 1 0 0 1 1.565.017l3.235 4.156 3.928-3.396a1 1 0 0 1 1.643.9L18.115 13H1.922L.399 2.7a1 1 0 0 1 1.65-.898zM2 14h16v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z' />
+              </svg>
+            </span>
+            <span>First Run</span>
+          </div>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">THB 243</span>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Featured from Epic First Run -->
+
+        <div class="container col end">
+          <div class="lists-container">
+            <div class="list">
+              <a href="#">
+              <h5>Top Add-Ons</h5>
+              <span style="width: 24px; height: 24px; margin-left: 5px;">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                viewBox="0 0 24 24">
+                <path
+                  d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+              </a>
+              <ul>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_150.jpg" alt="Graffiti Revolution Pack cover">
+                </div>
+                <div class="container col">
+                <span class="name">Graffiti Revolution Pack</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">THB 100</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_151.jpg" alt="Ninja Sarah Pack cover">
+                </div>
+                <div class="container col">
+                <span class="name">Ninja Sarah Pack</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">THB 399</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_152.jpg" alt="Destiny 2: Year of Prophecy Ultimate Edition cover">
+                </div>
+                <div class="container col">
+                <span class="name">Destiny 2: Year of Prophecy Ultimate Edition</span>
+                <span class="desc text-sm">Available 07/16/25</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">THB 2,699</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_153.jpg" alt="Rocket League® - Season 18 Rocketeer Pack cover">
+                </div>
+                <div class="container col">
+                <span class="name">Rocket League® - Season 18 Rocketeer Pack</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">THB 442</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_154.jpg" alt="Stayin' Solo Quest Pack cover">
+                </div>
+                <div class="container col">
+                <span class="name">Stayin' Solo Quest Pack</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">THB 199</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+              <h5>Top Free to Play</h5>
+              <span style="width: 24px; height: 24px; margin-left: 5px;">
+                <svg fill="#fff" aria-hidden="""true" class="""eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="""24" height="""24"
+                viewBox="""0 0 24 24"></svg>
+                <path
+                  d="""M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+              </a>
+              <ul>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_109.jpg" alt="Fortnite free to play cover">
+                </div>
+                <div class="container col">
+                <span class="name">Fortnite</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">Free</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_110.jpg" alt="Rocket League free to play cover">
+                </div>
+                <div class="container col">
+                <span class="name">Rocket League®</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">Free</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_111.jpg" alt="Genshin Impact free to play cover">
+                </div>
+                <div class="container col">
+                <span class="name">Genshin Impact</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">Free</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_94.jpg" alt="Wuthering Waves free to play cover">
+                </div>
+                <div class="container col">
+                <span class="name">Wuthering Waves</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">Free</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_92.jpg" alt="Honkai: Star Rail free to play cover">
+                </div>
+                <div class="container col">
+                <span class="name">Honkai: Star Rail</span>
+                <div class="prices-container">
+                  <div class="prices">
+                  <span class="price">Free</span>
+                  </div>
+                </div>
+                </div>
+              </li>
+              </ul>
+            </div>
+            <div class="list">
+              <a href="#">
+              <h5>Top Demos</h5>
+              <span style="width: 24px; height: 24px; margin-left: 5px;">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-1y8mdod" width="24" height="24"
+                viewBox="0 0 24 24">
+                <path
+                  d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+              </a>
+              <ul>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_155.jpg" alt="EA SPORTS FC 25 SHOWCASE demo cover">
+                </div>
+                <div class="container col">
+                <span class="name">EA SPORTS FC™ 25 SHOWCASE</span>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_156.jpg" alt="PC Building Simulator 2 Demo cover">
+                </div>
+                <div class="container col">
+                <span class="name">PC Building Simulator 2 Demo</span>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_157.jpg" alt="The Crew Motorfest Trial demo cover">
+                </div>
+                <div class="container col">
+                <span class="name">The Crew™ Motorfest Trial</span>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_158.jpg" alt="Far Cry 6 FREE Trial demo cover">
+                </div>
+                <div class="container col">
+                <span class="name">Far Cry® 6 FREE Trial</span>
+                </div>
+              </li>
+              <li>
+                <div class="img-wrapper">
+                <img src="./assets/images/image_159.jpg" alt="Touch Type Tale Demo cover">
+                </div>
+                <div class="container col">
+                <span class="name">Touch Type Tale Demo</span>
+                </div>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+
+        <!-- Most Popular -->
+        <div class="heading">
+          <div class="left">
+            <h5>Most Popular</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_113.jpg" alt="VALORANT cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">VALORANT</h4>
+                <div class="prices-container">
+                  <div class="prices">
+                    <span class="price">Free</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+                <img src="./assets/images/image_77.jpg" alt="Grand Theft Auto V Enhanced cover">
+              </div>
+              <div class="description">
+                <span class="genre">Base Game</span>
+                <h4 class="name">Grand Theft Auto V Enhanced</h4>
+                <div class="prices-container">
+                  <div class="prices">
+                    <span class="price">THB 959</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_112.jpg" alt="Football Manager 2024 cover">
+              </div>
+              <div class="description">
+              <span class="genre">Base Game</span>
+              <h4 class="name">Football Manager 2024</h4>
+              <div class="prices-container">
+                <div class="prices">
+                <span class="price">THB 1,499</span>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_160.jpg" alt="Marvel Rivals cover">
+              </div>
+              <div class="description">
+              <span class="genre">Base Game</span>
+              <h4 class="name">Marvel Rivals</h4>
+              <div class="prices-container">
+                <div class="prices">
+                <span class="price">Free</span>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_161.jpg" alt="LEGO Star Wars: The Skywalker Saga Galactic Edition cover">
+              </div>
+              <div class="description">
+              <span class="genre">Edition</span>
+              <h4 class="name">LEGO® Star Wars™: The Skywalker Saga Galactic Edition</h4>
+              <div class="prices-container">
+                <div class="prices">
+                <span class="price">THB 1,860</span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Most Popular -->
+
+        <!-- Recently Updated -->
+        <div class="heading">
+          <div class="left">
+            <h5>Recently Updated</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_113.jpg" alt="VALORANT cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">VALORANT</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_92.jpg" alt="Honkai: Star Rail cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Honkai: Star Rail</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_162.jpg" alt="Infinity Nikki cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Infinity Nikki</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_94.jpg" alt="Wuthering Waves cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Wuthering Waves</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_163.jpg" alt="Disney Dreamlight Valley cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Disney Dreamlight Valley</h4>
+          <div class="prices-container">
+            <div class="pieces">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Recently Updated -->
+
+        <!-- Now On The Epic Games Store -->
+        <div class="heading">
+          <div class="left">
+            <h5>Now On The Epic Games Store</h5>
+            <button style="width: 24px; height: 24px">
+              <span style="width: 100%; height: 100%">
+                <svg fill="#fff" aria-hidden="true" class="eds_5nt5ak0 eds_5nt5aka css-sedoc7" width="24" height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.97 4.47a.75.75 0 0 1 1.06 0L17.56 12l-7.53 7.53a.75.75 0 1 1-1.06-1.06L15.44 12 8.97 5.53a.75.75 0 0 1 0-1.06"
+                    clip-rule="evenodd" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="right">
+            <button>
+              <span style="transform: rotate(180deg); opacity: 0.6; width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+            <button>
+              <span style="width: 12px; height: 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9">
+                  <path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-container end">
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_71.png" alt="Deadtime Defenders cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Deadtime Defenders</h4>
+          <div class="tag">
+            <span>Now On Epic</span>
+          </div>
+          <div class="prices-container">
+            <span class="discount">-100%</span>
+            <div class="prices">
+              <span class="price"><del>THB 162</del></span>*
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_164.avif" alt="Hone cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Hone</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_165.avif" alt="Albion Online cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Albion Online</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_166.avif" alt="Asphalt Legends Unite cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">Asphalt Legends Unite</h4>
+          <div class="prices-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-wrapper">
+          <img src="./assets/images/image_167.avif" alt="The WereCleaner cover">
+              </div>
+              <div class="description">
+          <span class="genre">Base Game</span>
+          <h4 class="name">The WereCleaner</h4>
+          <div class="pieces-container">
+            <div class="prices">
+              <span class="price">Free</span>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Now On The Epic Games Store -->
+
+        <div class="container col end">
+            <div class="card-container">
+            <div class="card">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_180.jpg" alt="Sales & Specials card cover">
+              </div>
+              <div class="moreinfo-container">
+              <h4 class="name">Sales & Specials</h4>
+              <span class="desc">Save big on hit titles and hidden gems. There's always something on sale at the Epic
+                Games Store!</span>
+
+              <a class="moreinfo-button" href="#">
+                <span>Browse</span>
+              </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_181.jpg" alt="Free Games card cover">
+              </div>
+              <div class="moreinfo-container">
+              <h4 class="name">Free Games</h4>
+              <span class="desc">Explore free and free-to-play games from our collection. Come back every Thursday for
+                a
+                new free game!</span>
+
+              <a class="moreinfo-button" href="#">
+                <span>Play Now</span>
+              </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+              <img src="./assets/images/image_182.jpg" alt="Apps card cover">
+              </div>
+              <div class="moreinfo-container">
+              <h4 class="name">Apps</h4>
+              <span class="desc">Enjoy some of the best Apps for music, gaming, creating, and more!</span>
+
+              <a class="moreinfo-button" href="#">
+                <span>Browse</span>
+              </a>
+              </div>
+            </div>
+            </div>
+          <div class="slide-selector">
+            <button class="dot active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+          </div>
+        </div>
+      </div>
+      <!-- End 4th Section -->
+
+      <hr style="margin: 24px 0; border: 0; background-color: #ffffff26; height: 0.0625rem; width: 100%">
+      <span style="letter-spacing: 0.02em; font-weight: 200; font-size: 12px;">* <span>The lowest price offered on The
+          Epic Games Store in the last 30 days before discount</span></span>
+    </section>
+  </main>
+
+  <footer>
+    <section class="top">
+      <span style="width: 54px; height: 32px;">
+        <svg fill="#fff" viewBox="0 0 54 32" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m9.826 16.384a2.991 2.991 0 0 0 -.878-.964 7.225 7.225 0 0 0 -1.384-.73l-2.2-.89a3.575 3.575 0 0 1 -.619-.309 1.18 1.18 0 0 1 -.37-.358 1.32 1.32 0 0 1 -.174-.482 4.142 4.142 0 0 1 -.05-.704c0-.577.1-.998.297-1.262.1-.132.23-.243.395-.333s.371-.136.618-.136c.264 0 .474.04.631.124.157.082.284.19.384.321.148.198.235.433.26.705.024.271.037.565.037.877h3.51c0-.89-.107-1.68-.32-2.373-.216-.692-.56-1.261-1.04-1.706-.79-.743-1.945-1.114-3.46-1.114-.678 0-1.279.095-1.807.284a4.617 4.617 0 0 0 -1.434.829 4.347 4.347 0 0 0 -1.186 1.681c-.264.66-.396 1.402-.396 2.226 0 .692.05 1.277.15 1.755.097.478.246.882.444 1.211.197.33.457.61.78.84.32.232.703.438 1.15.618l2.224.915c.313.133.57.256.767.371.198.116.354.26.47.433.114.173.192.396.234.667.041.272.062.614.062 1.027 0 .709-.115 1.203-.346 1.483-.23.297-.602.445-1.113.445-.28 0-.507-.041-.68-.124a1.213 1.213 0 0 1 -.408-.297 1.253 1.253 0 0 1 -.309-.668 6.197 6.197 0 0 1 -.062-.94h-3.51c0 .907.085 1.678.26 2.313.172.634.472 1.166.901 1.594.395.396.91.71 1.545.94s1.39.346 2.262.346c.874 0 1.612-.124 2.262-.37.651-.248 1.175-.561 1.57-.94.462-.445.767-.985.916-1.62.148-.634.222-1.397.222-2.287 0-.791-.045-1.46-.136-2.002-.09-.545-.247-1.01-.47-1.398v.002zm1.074-6.02h2.968v14.439h3.51v-14.44h2.968v-3.163h-9.446zm20.176 1.322a7.943 7.943 0 0 0 -.384-1.62 4.325 4.325 0 0 0 -.729-1.285 5.17 5.17 0 0 0 -1.508-1.262c-.61-.346-1.393-.519-2.349-.519-.955 0-1.739.173-2.348.52a5.172 5.172 0 0 0 -1.509 1.26c-.313.38-.556.808-.729 1.287a8.448 8.448 0 0 0 -.395 1.619 15.537 15.537 0 0 0 -.16 1.978 107.02 107.02 0 0 0 -.001 4.673c.017.717.07 1.376.16 1.978a8.5 8.5 0 0 0 .396 1.62c.173.478.417.906.73 1.285.417.513.93.941 1.508 1.261.61.347 1.392.52 2.348.52s1.74-.173 2.35-.52a5.17 5.17 0 0 0 1.507-1.26c.316-.384.563-.819.73-1.287.172-.477.3-1.017.383-1.62.082-.6.136-1.26.16-1.977a67.19 67.19 0 0 0 .038-2.337c0-.84-.013-1.62-.038-2.336a19.717 19.717 0 0 0 -.16-1.978zm-3.326 5.897c-.007.495-.027.99-.06 1.484-.035.462-.084.874-.15 1.236-.066.363-.149.642-.247.84-.1.198-.24.363-.42.495-.182.132-.437.198-.767.198s-.585-.066-.766-.198a1.348 1.348 0 0 1 -.42-.495c-.1-.198-.182-.477-.247-.84a11.407 11.407 0 0 1 -.149-1.236 26.059 26.059 0 0 1 -.062-1.484 93.742 93.742 0 0 1 0-3.164c.008-.528.03-1.022.062-1.484.033-.46.082-.873.15-1.236.064-.362.147-.642.246-.84.098-.198.238-.363.42-.495.181-.131.436-.198.766-.198s.585.067.767.198c.181.132.321.297.42.495.098.198.181.479.247.84.066.363.115.775.15 1.236.031.462.051.956.06 1.484.017 1.055.017 2.11 0 3.164zm14.126-1.298c.263-.338.465-.705.606-1.1.14-.396.235-.812.284-1.249.05-.437.074-.894.074-1.372 0-.84-.074-1.595-.223-2.262-.148-.668-.408-1.228-.779-1.682-.37-.453-.874-.804-1.508-1.05-.634-.248-1.43-.371-2.386-.371h-5.019v17.604h3.51v-6.849h1.163l2.15 6.849h3.66l-2.572-7.615c.398-.236.75-.542 1.04-.902zm-2.584-2.955c-.02.246-.079.488-.173.717-.09.214-.23.392-.42.532s-.45.21-.78.21h-1.483v-4.425h1.483c.33 0 .59.066.78.197.19.132.33.306.42.52s.148.454.173.717c.048.51.048 1.023 0 1.533zm13.626-2.966v-3.165h-8.11v17.604h8.11v-3.165h-4.598v-4.203h3.956v-3.165h-3.956v-3.906z" />
+        </svg>
+      </span>
+
+      <div class="footer-social-icons">
+        <span style="height: 1.75rem;">
+          <svg fill="#ffffffa6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m17.01 12.25.555-3.62h-3.473V6.282c0-.99.485-1.956 2.04-1.956h1.58V1.245S16.279 1 14.909 1c-2.86 0-4.73 1.734-4.73 4.872V8.63H7v3.62h3.18V21h3.912v-8.75z">
+            </path>
+          </svg>
+        </span>
+
+        <span style="height: 1.75rem;">
+          <svg fill="#ffffffa6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.712 10.622 20.413 3h-1.588l-5.818 6.618L8.36 3H3l7.027 10.007L3 21h1.588l6.144-6.989L15.64 21H21zm-2.174 2.474-.713-.997L5.16 4.17H7.6l4.571 6.4.712.996 5.943 8.319h-2.439z">
+            </path>
+          </svg>
+        </span>
+
+        <span style="height: 1.75rem;">
+          <svg fill="#ffffffa6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.8 8.035s-.195-1.379-.796-1.984c-.762-.797-1.613-.801-2.004-.848C16.203 5 12.004 5 12.004 5h-.008S7.796 5 5 5.203c-.39.047-1.242.05-2.004.848-.601.605-.793 1.984-.793 1.984S2 9.656 2 11.273v1.516c0 1.617.2 3.238.2 3.238s.195 1.38.792 1.985c.762.797 1.762.77 2.207.855 1.602.152 6.801.2 6.801.2s4.203-.008 7-.208c.39-.047 1.242-.05 2.004-.847.601-.606.797-1.985.797-1.985S22 14.41 22 12.79v-1.516c0-1.617-.2-3.238-.2-3.238M9.935 14.63V9.008l5.402 2.82z">
+            </path>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <section class="footer">
+      <hr style="border: 0; background-color: #ffffff26; height: 0.0625rem; width: 100%">
+      <div>
+        <div>
+          <button>
+            <h3>Games</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">Fornite</a></li>
+            <li><a href="#">Fall guys</a></li>
+            <li><a href="#">Rocket League</a></li>
+            <li><a href="#">Unreal Tournament</a></li>
+            <li><a href="#">Infinity Blade</a></li>
+            <li><a href="#">Shadow Complex</a></li>
+            <li><a href="#">Robo Recall</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <button>
+            <h3>Marketplaces</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">Epic Games Store</a></li>
+            <li><a href="#">Fab</a></li>
+            <li><a href="#">Sketchfab</a></li>
+            <li><a href="#">ArtStation</a></li>
+            <li><a href="#">Store Refund Policy</a></li>
+            <li><a href="#">Store EULA</a></li>
+          </ul>
+        </div>
+        <div>
+          <button>
+            <h3>Tools</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">Unreal Engine</a></li>
+            <li><a href="#">UEFN</a></li>
+            <li><a href="#">MetaHuman</a></li>
+            <li><a href="#">Twinmotion</a></li>
+            <li><a href="#">Megascans</a></li>
+            <li><a href="#">RealityScan</a></li>
+            <li><a href="#">Rad Game Tools</a></li>
+          </ul>
+        </div>
+        <div>
+          <button>
+            <h3>Online Services</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">Epic Online Services</a></li>
+            <li><a href="#">Kids Web Services</a></li>
+            <li><a href="#">Services Agreement</a></li>
+            <li><a href="#">Acceptable Use Policy</a></li>
+            <li><a href="#">Trust Statement</a></li>
+            <li><a href="#">Subprocessor List</a></li>
+          </ul>
+        </div>
+        <div>
+          <button>
+            <h3>Company</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">UX Research</a></li>
+          </ul>
+        </div>
+        <div>
+          <button>
+            <h3>Resources</h3>
+            <span style="width: 20px; height: 20px;">
+              <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M19.53 8.97a.75.75 0 0 1 0 1.06L12 17.56l-7.53-7.53a.75.75 0 1 1 1.06-1.06L12 15.44l6.47-6.47a.75.75 0 0 1 1.06 0"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+          </button>
+          <ul>
+            <li><a href="#">Dev Community</a></li>
+            <li><a href="#">MegaGrants</a></li>
+            <li><a href="#">Support-A-Creator</a></li>
+            <li><a href="#">Creator Agreement</a></li>
+            <li><a href="#">Distribute on Epic Games</a></li>
+            <li><a href="#">Unreal Engine Branding Guidelines</a></li>
+            <li><a href="#">Fan Art Policy</a></li>
+            <li><a href="#">Community Rules</a></li>
+            <li><a href="#">EU Digital Services Act Inquiries</a></li>
+            <li><a href="#">Epic Pro Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr style="border: 0; background-color: #ffffff26; height: 0.0625rem; width: 100%">
+    </section>
+    <section class="bottom">
+      <div>
+        <p>
+          © 2025, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite
+          logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are
+          trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other
+          brands or product names are the trademarks of their respective owners.Our websites may contain links to other
+          sites and resources provided by third parties. These links are provided for your convenience only. Epic Games
+          has no control over the contents of those sites or resources, and accepts no responsibility for them or for
+          any loss or damage that may arise from your use of them.
+        </p>
+        <ul>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Safety & security</a></li>
+          <li><a href="#">Store refund policy</a></li>
+          <li><a href="#">Publisher index</a></li>
+        </ul>
+      </div>
+      <a class="btt" href="#">
+        <span>Back to top</span>
+        <span style="width: 20px; margin-left: 8px;">
+          <svg fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.25 16a.75.75 0 0 0 1.5 0V9.81l2.22 2.22a.75.75 0 1 0 1.06-1.06L12 6.94l-4.03 4.03a.75.75 0 1 0 1.06 1.06l2.22-2.22z">
+            </path>
+            <path fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25M3.75 12a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0"
+              clip-rule="evenodd"></path>
+          </svg>
+        </span>
+      </a>
+    </section>
+  </footer>
 </body>
+
 </html>
